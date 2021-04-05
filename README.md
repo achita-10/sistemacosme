@@ -1,7 +1,7 @@
 ## Pasos para ejecutar el sistema
 
 ### Clonar el repositorio de git
-- Clonar el proyecto con el comando git clone https://github.com/achita-10/ceop.git
+- Clonar el proyecto con el comando git clone https://github.com/achita-10/sistemacosme.git
 
 ### Crear el archivo .env
 - El archivo .env nos permite alamacenar las variables de entorno y definir datos como nombre, usuario y contraseña que tendra la base de datos, para crearlo usar el siguiente comando en la raiz del proyecto: 
