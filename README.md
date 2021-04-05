@@ -4,7 +4,8 @@
 - Clonar el proyecto con el comando git clone https://github.com/achita-10/ceop.git
 
 ### Crear el archivo .env
-- El archivo .env nos permite alamacenar las variables de entorno y definir datos como nombre, usuario y contraseña que tendra la base de datos, para crearlo usar el siguiente comando en la raiz del proyecto: cp .env.example .env
+- El archivo .env nos permite alamacenar las variables de entorno y definir datos como nombre, usuario y contraseña que tendra la base de datos, para crearlo usar el siguiente comando en la raiz del proyecto: 
+- cp .env.example .env
 
 ### Ejecutar los siguientes comandos en la raiz del proyecto 
 - Para instalar composer: composer install
@@ -21,7 +22,7 @@
 ### Crear usuario administrador
 - Primeramente se debe crear un registro en la tabla usuario de la bd
 - Posteriormente crear el usuario para iniciar sesión ejecutando el siguiente comando en la raiz del proyecto: php artisan db:seed
-- El cual define por defecto como usuario: admin y contraseña: admin
+- El cual define por defecto como usuario: Administrador y contraseña: Administrador
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
