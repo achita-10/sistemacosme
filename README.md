@@ -20,9 +20,11 @@
 - Con el siguiente comando se van a crear las tablas de la bd: php artisan migration
 
 ### Crear usuario administrador
-- Primeramente se debe crear un registro en la tabla usuario de la bd
-- Posteriormente crear el usuario para iniciar sesión ejecutando el siguiente comando en la raiz del proyecto: php artisan db:seed
-- El cual define por defecto como usuario: Administrador y contraseña: Administrador
+- Ejecutando el siguiente comando en la raiz del proyecto: php artisan db:seed
+- El cual define por defecto como correo: admin@gmail.com y contraseña: Administrador
+
+### Generar key
+- Utilizando el siguiente comando en la raiz del proyecto: php artisan key:generate 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
