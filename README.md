@@ -17,7 +17,7 @@
 - crear la bd definida en el archivo .env en el gestor de base de datos, se recomienda phpmyadmin
 
 ### Crear las tablas
-- Con el siguiente comando se van a crear las tablas de la bd: php artisan migration
+- Con el siguiente comando se van a crear las tablas de la bd: php artisan migrate
 
 ### Crear usuario administrador
 - Ejecutando el siguiente comando en la raiz del proyecto: php artisan db:seed
