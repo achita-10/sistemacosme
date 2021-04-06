@@ -20,9 +20,7 @@ Route::get('/', function () {
 })->middleware(['guest'])->name('dashboard');
 
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('/dashboard', function () {
-        return view('Actividades');
-    })->middleware(['auth'])->name('actividad');
+    
     
     //Actividades
     Route::get('/actividad', [ActividadController::class, 'index'])->name("actividad");
