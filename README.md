@@ -24,10 +24,10 @@
 - El cual define por defecto como correo: admin@gmail.com y contraseña: Administrador
 
 ### Generar key
-- Utilizando el siguiente comando en la raiz del proyecto: php artisan key:generate 
+- El último paso es crear la key con el comando: php artisan key:generate 
 
 ### Despliegue del sistema
-- Finalmente ejecutar el siguiente comando para el uso del sistema: php artisan serve
+- Finalmente ejecutar el sistemas con: php artisan serve
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
